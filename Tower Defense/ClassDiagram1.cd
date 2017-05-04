@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Projectile">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tower\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower">
+    <Position X="18.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAmAAAAAMAAQAAIAABAAQkACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tower\Tower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerBtn">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAAAAAAAAAAAAAAAAAAIAAAACAAAQAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Tower\TowerBtn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="12.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>kAxgaBEMYCAREEAAaAgAEEgIEVIAEJEAAYCQABIAUAo=</HashCode>
+      <FileName>Assets\Scripts\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyTraits">
+    <Position X="15.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAgACDAIYAAwgEAkSIiBBFmICQgJAIgACACAAAAAAEg=</HashCode>
+      <FileName>Assets\Scripts\EnemyTraits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="2.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>Ak+AQAIAkCAEAAAAJAAEACARCEGBkAlBAIAJQCBABMA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Loader">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Loader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyValuePair&lt;TKey, Tvalue&gt;">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Loader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager">
+    <Position X="5.25" Y="3" Width="1.75" />
+    <InheritanceLine Type="Singleton&lt;T&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="2.184" />
+        <Point X="6" Y="2.7" />
+        <Point X="5.01" Y="2.7" />
+        <Point X="5.01" Y="6.125" />
+        <Point X="5.25" Y="6.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgAAAEIAAABEBAEABBAhAAgQIAAIBIA=</HashCode>
+      <FileName>Assets\Scripts\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerManager">
+    <Position X="7.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAQBCAgAiQABAAAABAQAAAAgAAIAoAQAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\TowerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneticAlgorithm">
+    <Position X="9.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAAAAQDAABAAEIIAAAQABASAAAAAAIEKQABAAA=</HashCode>
+      <FileName>Assets\Scripts\AI\GeneticAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="proType">
+    <Position X="20.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tower\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EnemyElement">
+    <Position X="7.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAEAAAAAAAAAAAEAAAAAAQAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\EnemyTraits.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="gameStatus">
+    <Position X="5.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAgAAAAIAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpecialTraitsEnum">
+    <Position X="9.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAjAAAAACASAEAACAAQAIBIABQAAAAAAAQcAAEABAA=</HashCode>
+      <FileName>Assets\Scripts\SpecialTraitsEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
